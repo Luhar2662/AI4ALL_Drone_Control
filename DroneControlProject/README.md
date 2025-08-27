@@ -1,11 +1,10 @@
-# Dev repo: Introduction to Robotics Fall 2024
+# AI4ALL Drone Control Project
 
-Source code assignments for MAE345 (MAE345, COS346, ECE345, ROB345, MAE549, ROB549).
+Source code and coding exercises for drone navigation project: designing a simple grid-world maze environment, controlling CrazyFlie drone platforms, implementing Q-Learning and DQN agents for progressively more complex tasks, and integrating drone control and RL path planning.
 
-This repository contains Jupyter notebook assignments for Princeton's MAE345 class. It is organized in the following manner:
+This repository contains and extends helper code originally provided in Princeton's MAE345 Intro to Robotics Class (the code for initializing drones, dependencies, etc). The original contributions are the notebooks in the top level directory. The following installation instructions are pulled from the instructions provided in the MAE345 repository.
 
-- All Jupyter notebooks are placed in the top level directory so they have access to all other Python modules and paths referenced in them are consistent.
-- All data provided / collected for use in assignments resides in `data`.
+- All Notebooks are paired: both the base notebook and the completed 'instructor version' have been provided.
 
 ## Install Instructions 
 
@@ -19,11 +18,5 @@ To install the environment, do the following:
 
 ## Working on Assignments
 
-To work on an assignment, open the terminal (on Windows you need to use the same Anaconda Prompt application you used to install the environment) and navigate to the directory containing this repository. Enter the command `conda activate mae345` to load the environment. Then run either `jupyter lab` or `jupyter notebook`. Both launch an interface for editing and running Python scripts in your browser. The former is a newer, more featureful interface while the latter is older and straightforward. Follow the instructions within the notebook to complete the assignment.
-
-Submission instructions are included at the end of each notebook file. 
-
-## Accessing New and Updated Assignments
-
-As new assignments are released, either download the new files and place them in the folder containing the existing labs, or redownload this repository and replace the existing folder. You do not need to recreate the conda environment.
+To work on an assignment, open the terminal (on Windows you need to use the same Anaconda Prompt application you used to install the environment) and navigate to the directory containing this repository. Enter the command `conda activate mae345` to load the environment. Then run either `jupyter lab` or `jupyter notebook`. Both launch an interface for editing and running Python scripts in your browser. Some notebooks (those not dealing with drone control) are also fully functional in Google Colab. Follow the instructions within the notebook to complete the assignment.
 
