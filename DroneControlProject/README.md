@@ -5,6 +5,7 @@ Source code and coding exercises for drone navigation project: designing a simpl
 This repository contains and extends helper code originally provided in Princeton's MAE345 Intro to Robotics Class (the code for initializing drones, dependencies, etc). The original contributions are the notebooks in the top level directory. The following installation instructions are pulled from the instructions provided in the MAE345 repository.
 
 - All Notebooks are paired: both the base notebook and the completed 'instructor version' have been provided.
+- Notebooks compiled by Rahul Kalavagunta and Bryan Boateng (rk3815@princeton.edu, bb8408@princeton.edu)
 
 ## Install Instructions 
 
